@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "package": "cn.shadownullwow.omegaclient.injection.mixins",
+  "refmap": "mixins.omegaclient.refmap.json",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "MixinEntity",
+    "MixinEntityPlayerSP",
+    "MixinGuiChat",
+    "MixinGuiIngame",
+    "MixinGuiScreen",
+    "MixinGuiSpectator",
+    "MixinMinecraft",
+    "MixinNetworkManager",
+    "MixinRenderer"
+  ]
+}
